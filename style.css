@@ -1,0 +1,90 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+.menu-list {
+    list-style: none; /* (Вже тут, щоб прибрати крапки) */
+    padding: 0;
+    margin: 0;
+    display: flex;/* --- ДОДАЙ FLEX ТУТ --- */
+    
+   
+}
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    margin-left: 8px;
+}
+header {
+    padding: 18px 24px;
+    background: #913333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* --- ДОДАЙ FLEX ТУТ --- */
+    
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    background-image: url('folder/10.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    /* --- СТИЛІ ДЛЯ HERO-БЛОКУ --- */
+
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+
+.cta-button {
+padding: 15px 30px;
+text-decoration: none;
+color: white;
+border-radius: 50px;
+font-weight: bold;
+margin-top: 25px;
+background-color: #28b485;
+box-shadow: 5px 5px 10px;
+}
+.Main{
+    background-color:#f4fa7a ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.text{
+    width: 500px;
+    font-size: 22px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:#913333 ;
+    color: white;
+    font-size: 20px;
+}
+/*Зроби цей сайт красивим 😉*/
